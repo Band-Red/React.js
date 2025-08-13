@@ -1,21 +1,41 @@
-# Security Policy
+# سياسة الأمان
 
-## Supported Versions
+## الإبلاغ عن الثغرات الأمنية
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+نحن نأخذ الأمان على محمل الجد. إذا اكتشفت أي ثغرات أمنية في المستودع، يرجى إبلاغنا على الفور.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+### كيفية الإبلاغ عن الثغرة
 
-## Reporting a Vulnerability
+1. **لا تقم بالإبلاغ عن الثغرات الأمنية من خلال تتبع المشكلات العام (public issues)**
+2. قم بإرسال تقرير مفصل إلى [ADD_SECURITY_EMAIL]
+3. يجب أن يتضمن التقرير:
+   - وصف الثغرة
+   - خطوات إعادة إنتاج المشكلة
+   - تأثير الثغرة المحتمل
+   - اقتراح للحل (إن وجد)
 
-Use this section to tell people how to report a vulnerability.
+## التحديثات والإصدارات المدعومة
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+نحن نقوم بتحديث التبعيات بشكل منتظم للحفاظ على أمان المشروع. نستخدم Dependabot للتنبيه التلقائي عن التحديثات الأمنية.
+
+### الإصدارات المدعومة حالياً
+
+| الإصدار | الدعم           |
+| ------- | --------------- |
+| latest  | :white_check_mark: |
+
+## أفضل ممارسات الأمان
+
+عند المساهمة في هذا المشروع، يرجى اتباع أفضل ممارسات الأمان:
+
+1. التحقق من صحة جميع المدخلات
+2. استخدام متغيرات البيئة للمعلومات الحساسة
+3. تجنب تخزين الأسرار في الشيفرة المصدرية
+4. تحديث التبعيات بانتظام
+5. اتباع مبادئ الأمان الخاصة بـ React.js
+
+## التواصل
+
+إذا كان لديك أي أسئلة حول الأمان، يرجى التواصل مع:
+- فتح issue جديد (للمشكلات غير الأمنية)
+- التواصل مع مالك المستودع مباشرة (للمشكلات الأمنية)
