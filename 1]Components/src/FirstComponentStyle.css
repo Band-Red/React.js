@@ -1,0 +1,11 @@
+.rosbrownBg{
+    background-color: rosybrown;
+}
+
+.active {
+    border: solid 10px silver;
+}
+
+.greenBg {
+    background: green;
+}
